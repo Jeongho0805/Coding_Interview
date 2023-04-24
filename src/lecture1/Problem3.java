@@ -1,7 +1,9 @@
 package lecture1;
 
-import java.util.Arrays;
-
+/**
+ * 문제 - 문자열에 들어 있는 모든 공백을 %20으로 바꿔주는 메서드를 작성해라. 자바로 구현한다면 배열안에서 작업할 수 있도록
+ * CharacterArray를 사용해라!
+ */
 public class Problem3 {
     private static final char[] URL = {'%','2','0'};
 
