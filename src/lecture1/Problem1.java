@@ -5,13 +5,13 @@ package lecture1;
  */
 public class Problem1 {
     public boolean isDuplicated(String input) {
-        StringBuilder sb = new StringBuilder();
-        for (String alpha : input.split("")) {
-            if (sb.toString().contains(alpha)) {
-                return true;
-            }
-            sb.append(alpha);
-        }
-        return false;
+//        StringBuilder sb = new StringBuilder();
+//        for (String alpha : input.split("")) {
+//            if (sb.toString().contains(alpha)) {
+//                return true;
+//            }
+//            sb.append(alpha);
+//        }
+//        return false;
     }
 }
