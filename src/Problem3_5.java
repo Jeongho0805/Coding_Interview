@@ -1,5 +1,11 @@
 import java.util.Stack;
 
+/**
+ * 스택 정렬 - 가장 작은 값이 위로 오도록 스택을 정렬하는 프로그램을 작성
+ * 추가적으로 하나 정도의 스택은 사용해도 괜찮지만, 스택에 보관된 요소를 배열 등의
+ * 자료구조로 복사할 수는 없다.
+ * push, pop, peek, isEmpty 4가지 연산은 제공해야한다.
+ */
 public class Problem3_5 {
     public static void main(String[] args) {
         MinSortStack stack = new MinSortStack();
