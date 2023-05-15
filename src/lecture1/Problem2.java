@@ -5,6 +5,8 @@ import java.util.Arrays;
 /**
  * 문제 - 문자열 두 개가 주어졌을 때 이 두리 서로 순열 관계에 잇는지 확인하는 메서드를 작성해라
  * 순열 관계 뜻 : 두 문자열에서 사용된 문자는 같은데 문자의 순서만 다른 형태라는 것을 의미한다.
+ *
+ * Hash 사용검토
  */
 public class Problem2 {
     public boolean checkPermutation(String word1, String word2) {

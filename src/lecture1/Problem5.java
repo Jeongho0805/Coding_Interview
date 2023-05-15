@@ -1,10 +1,13 @@
 package lecture1;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
  * 문제 - 문자 삽입, 문자 삭제, 문자 교체를 통해 문자 2개를 같게 만들기 위한 편집 횟수가 1회 이내인지 확인하는 함수를 작성하라
+ *
+ * 삽입, 삭제는 똑같다...
  */
 public class Problem5 {
     private boolean answer = false;
@@ -21,6 +24,7 @@ public class Problem5 {
         checkInsert(longWord, shortWord);
         checkDelete(longWord, shortWord);
         checkChange(longWord, shortWord);
+
         return answer;
     }
 

@@ -1,3 +1,5 @@
+package lecture4;
+
 import structure.TreeNode;
 
 /**

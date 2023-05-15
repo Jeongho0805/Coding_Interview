@@ -1,3 +1,5 @@
+package lecture3;
+
 import java.util.Stack;
 
 /**
