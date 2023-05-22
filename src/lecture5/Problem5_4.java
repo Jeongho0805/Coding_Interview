@@ -3,6 +3,7 @@ package lecture5;
 /**
  * 양의 정수가 하나 주어졌을 때, 이 숫자를 2진수로 표기하였을 때 1비트의 갯수가 같은
  * 숫자 중에서 가장 작은 수와 가장 큰수를 구해라.
+ * 스터디원 해법 -> 2^count -1 -> 가장 작은수 2^length-1  - 2*count - 1
  */
 public class Problem5_4 {
     public static int[] CalMinMax(int input) {
